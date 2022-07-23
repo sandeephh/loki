@@ -15,7 +15,7 @@
       }],
       container_root_path: '/var/lib/docker',
       pipeline_stages: [{
-        docker: {},
+        cri: {},
       }],
     },
     promtail_cluster_role_name: 'promtail',
